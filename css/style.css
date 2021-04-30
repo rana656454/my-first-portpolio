@@ -1,0 +1,286 @@
+/*@import url(./font.css);
+
+font-family: "Roboto";
+	src:'../fonts/Roboto/Roboto-Regular.ttf';
+*/
+
+
+@import url(./partials/_variables.css);
+
+@import url(./partials/_global.css);
+
+
+
+/*Start Navigation*/
+.header-area .main-menu .navbar .navbar-brand{
+	padding: 0 2rem 0 5rem;
+}
+
+.header-area .main-menu .navbar{
+	padding: 1rem 10rem;
+
+}
+
+.header-area .main-menu .nav-item .nav-link{
+
+	font-family:font-family: 'Roboto', sans-serif;;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 1.7rem;
+	color: var(--title-color);
+
+}
+
+.header-area .main-menu .navbar-nav .active a{
+	background: var(--gradient-color);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	background-clip: text;
+	
+
+}
+
+.header-area .main-menu .navbar-nav a:hover{
+	background: var(--gradient-color);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	background-clip: text;
+	
+}
+
+/*End Navigation*/
+
+/*Start Banner*/
+.site-main .site-banner{
+
+}
+
+.site-main .site-banner .site-title h3{
+	padding-top: 35%;
+	font-weight: 500;
+}
+
+
+.site-main .site-banner .site-title h3::after{
+	content: '';
+	height: 2px;
+	width: 18vw;
+	background:black;
+	display: inline-block;
+	margin-left: 5%;
+	transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+font-size: 5rem;
+}
+
+
+.site-main .site-banner .site-title h4{
+font-size: 1.5rem;
+}
+
+
+
+.sbtn{
+	padding: .8rem 2.2rem;
+	font: normal 500 16px/20px var(--roboto);
+	position: relative;
+	border:3px solid transparent;
+	border-radius: 4px;
+	padding: 10px;
+	width: 150px;
+	background: linear-gradient(90deg,#4458dc 0%,#854fee 100%);
+	box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+	color: white;
+	transition: width,color,background 2s,2s,2s;
+	
+
+}
+
+
+.sbtn:hover{
+	background: white;
+	color: black;
+	width: 200px;
+}
+
+
+
+.ssbtn{
+	border: 2px solid;
+	border-color: #4458dc;
+	border-radius: 6px;
+}
+
+.cvbtn{
+    border: 2px solid;
+	border-color: #4458dc;
+	border-radius: 6px;
+	width:152px;
+	
+
+}
+
+.cbtn{
+padding: .8rem 2.2rem;
+	font: normal 500 16px/20px var(--roboto);
+	position: relative;
+	border:3px solid transparent;
+	border-radius: 4px;
+	padding: 10px;
+	width: 150px;
+	background: linear-gradient(90deg,#4458dc 0%,#854fee 100%);
+	box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+	color: white;
+	transition: width,color,background 2s,2s,2s;
+
+}
+
+
+.cbtn:hover{
+background: white;
+color: black;
+}
+
+
+.spbtn{
+	margin-left: 10px;
+	border: 2px solid;
+	border-color: #4458dc;
+	border-radius: 6px;
+}
+
+
+
+
+.pbtn{
+	padding: .8rem 2.2rem;
+	font: normal 500 16px/20px var(--roboto);
+	position: relative;
+	border:3px solid transparent;
+	border-radius: 4px;
+	padding: 10px;
+	width: 150px;
+	color: color;
+	background: white;
+	transition: width,color,background 2s,2s,2s;
+	
+}
+
+
+.pbtn:hover{
+	background: var(--gradient-color);
+	color: white;
+	width: 200px;
+}
+
+
+.about-area{
+	padding-top: 200px;
+	padding-bottom: 50px;
+}
+
+.about-area h2 span{
+	letter-spacing: 20px;
+	font: normal 500 16px/20px var(--roboto);
+	font-weight: bold;
+	font-size: 35px;
+
+}
+
+.para{
+	font-size: 18px;
+	font-weight: 400;
+
+	text-align: justify-all;
+
+}
+
+
+.brand-area {
+	padding-top: 100px;
+}
+
+.single-brand{
+	margin: 20px 20px 20px 20px;
+	border:1px solid #201f1f17;
+	padding: 0;
+	width: 152px;
+	cursor: pointer;
+	transition: transform .4s ease;
+	text-align: center;
+}
+
+.single-brand:hover{
+	box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+	transform: scale(1.1);
+}
+
+
+.experience-area{
+	margin-left: 100px;
+}
+.years-area{
+	background: url(back1.png) no-repeat 45px 20px;
+	padding-top:4rem; 
+	width: 40rem;
+	height: 18rem;
+	padding-left: 0px;
+}
+
+.years-area h2 span{
+	color: white;
+	font-weight: bold;
+}
+.years{
+	color: #854fee;
+	font-size: 50px;
+	font-weight: bold;
+	position: relative;
+	left: -40px;
+	bottom: 50px;
+}
+.bg-color{
+	height: 300px;
+	width: 300px;
+	position: relative;
+	bottom: 270px;
+	left: 80px;
+	/*background: #e029290a;*/
+	background: rgb(156, 141, 239);
+	z-index: -1;
+}
+
+.call-now{
+	font-weight: bold;
+}
+
+section{
+	height: 100vh;
+}
+
+/*
+button:focus,
+button:active
+button:hover
+.btn:active,
+.btn.active{
+	outline: 0px !important;
+	box-shadow: none !important;
+}
+*/
+
+
+.button-group button{
+	background: none;
+	outline: none;
+	border:none;
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.grid .img a:hover img{
+	filter:brightness(1.1)drop-shadow(1px 8px 30px);
+}
